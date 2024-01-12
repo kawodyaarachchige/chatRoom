@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.example.controller.ClientFormController">
+   <children>
+      <AnchorPane prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: yellow;">
+         <children>
+            <TextArea fx:id="chatArea" layoutX="32.0" layoutY="70.0" prefHeight="263.0" prefWidth="537.0" />
+            <TextField fx:id="txtMsg" layoutX="32.0" layoutY="349.0" prefHeight="35.0" prefWidth="461.0" />
+            <Button layoutX="506.0" layoutY="349.0" mnemonicParsing="false" onAction="#btnSendOnAction" prefHeight="35.0" prefWidth="63.0" text="SEND" />
+            <Label layoutX="253.0" layoutY="14.0" text="CLIENT">
+               <font>
+                  <Font name="Baloo Bhai 2 Bold" size="27.0" />
+               </font>
+            </Label>
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>
